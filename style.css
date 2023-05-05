@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F5EB;
+    color: #567189;
+   font-family: Courier; font-size: 17.5px;
+   padding : 0px 100px;
+   border-top:solid #567189 4px;
+   position: fixed;
+   width: 100%;   
+}
+header a{
+    color: #A1624C; text-decoration: none;  margin-right: 5px;
+    transition:  ease-out ;
+    padding-right: 15px;
+}
+header a:hover{
+color:#567189;
+}
+h2{
+    font-family: poppins; font-size: xx-large ; font-weight: normal;
+}
+.slides{
+    height: 65vh;
+    display: flex;
+    color: #F7F5EB; font-size: 22px;
+    padding:0px 80px;
+    align-items: center;
+    background-image: url(images/coffee-2560260_1920.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,.03);
+    width: 100%;
+    height: 100vh;
+    
+  
+}
+.slides h2{
+    font-size: 53px;
+}
+.slides p{
+    color: #F7F5EB;
+    font-size: 23px;
+    margin-top: 7px;
+    font-family: Courier;
+}
+.slides a{
+    color: whitesmoke;
+     text-decoration: none;
+     background-color: #A1624C;
+     padding: 11.2px 22.4px;
+     border-radius: 1px;
+     display: inline-block;
+     margin-top: 10px;
+     font-family: Courier;
+}
+.slides a:hover{
+    
+    background-color: #F7F5EB;
+    color: #A1624C;
+transform: scale(1.1);
+transition: ease 0.3s;
+}
+.services h1{
+   margin-top: 30px;
+   margin-bottom: 30px;
+    text-align: center;
+    font-family: poppins;
+    color:#A1624C;
+    font-size: 40px
+}
+.services .container{
+   display: flex; padding: 0px 80px;
+}
+.services .card{
+    margin-right:20px;
+    box-shadow: 3px 3px 3px 3px #a9928b39 ;
+    padding: 10px;
+    text-align: center;
+    background-color: #fffefcb2;
+}
+.card h3{
+    color: #A1624C;
+    font-family: poppins;
+    text-align: center;
+    font-size: 35px;
+    kerning: 20px;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration-color: black;
+    font-size: 20px;
+    text-align: auto;
+    font-family: poppins;
+  text-justify: inter-word;
+  height: 250px;
+  line-height: 300%;
+}
+
+.Coffee h1{
+    font-family: poppins;
+    text-align: center;
+    font-size: 60px;
+ border-bottom: solid;
+ border-top: solid;
+ border-color: #567189;
+ background-color: #F7F5EB;
+ color: #567189;
+}
+
+.Coffee .container2{
+    background-color: #A1624C;
+    color:#F7F5EB;
+    font-family: poppins;
+    display: flex;
+text-align: center;
+padding: 50px;
+}
+.Coffee.cards{
+    text-align: center;
+    height: auto;
+}
+.Coffee h3{
+    font-family: poppins;  font-size: 27px; color: #567189; font-weight: 10px;
+    padding-bottom: 15px;
+}
+.Coffee p{
+    text-align: auto ;
+    font-size: 20px;
+    text-justify: inter-word;
+    height: 350px;
+    line-height: 200%;
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    color: #A1624C;
+    font-size: larger;
+}
+table{
+   
+    background-color: #F7F5EB;
+    font-weight: 20px;
+}
+
+   
+th{
+    padding: 10px 150px;
+    border-color:#F7F5EB; 
+}
+th img{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #567189;
+    border-radius: 1px;
+}  
+.Desserts h1{
+    background-color: #F7F5EB;
+    color: #567189;
+    font-family: poppins;
+    text-align: center;
+    font-size: 60px;
+ border-bottom: solid;
+ border-top: solid;
+ border-color: #567189;
+}
+.Desserts h3{
+    font-family: poppins;  font-size: 27px; color: #567189; font-weight: 10px;
+    padding-bottom: 15px;
+}
+.Desserts p{
+    text-align: auto ;
+    font-size: 20px;
+    text-justify: inter-word;
+    height: 350px;
+    line-height: 200%;
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    color: #A1624C;
+    font-size: larger;
+}
+.Books h1{
+    background-color: #F7F5EB;
+    color: #567189;
+    font-family: poppins;
+    text-align: center;
+    font-size: 60px;
+ border-bottom: solid;
+ border-top: solid;
+ border-color: #567189;
+}
+.Books h3{
+    font-family: poppins;  font-size: 27px; color: #567189; font-weight: 10px;
+    padding-bottom: 15px; 
+}
+.Books p {
+    text-align: auto ;
+    font-size: 20px;
+    text-justify: inter-word;
+    height: 350px;
+    line-height: 200%;
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
+    color: #A1624C;
+    font-size: larger;
+}
+.container3{
+    display: flex;
+    max-width: 1170px ;
+    margin: auto;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.aboutus{
+    display: flex;
+     padding: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     border-top: #567189 2px solid;
+     border-bottom: #567189 2px solid;
+}
+.card0 img{
+    float: left;
+    border: 3px solid #a1634c7e;
+    border-radius: 4px;
+    margin-right: 60px;
+}
+.card0 p{
+    margin: 60px auto;
+    width: 70%;
+   font-size: 25px;
+   font-family: poppins , serif;
+   color: #a1634cde;
+}
+.card0 h2{
+    font-size: 50px;
+    padding-left: 10px;
+    color: #567189;
+    letter-spacing: 10px;
+}
+
+
+.footer{
+    background-color: #567189;
+    color: #F7F5EB;
+    padding: 10px;
+    font-family: 'poppins', sans-serif;
+}
+.footer-col{
+    width: 100%;
+    padding: 50px;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+
+    content:'' ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #be6545;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+   .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+   }
+   .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 5px;
+   }
+   .footer-col .social-links a{
+    display: inline-block;
+    height: 40px; width: 40px;
+    background-color: rgba(255, 255, 255, .2);
+    margin-right:0  10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+ }
+ .footer-col .social-links a:hover{
+
+    color: #be6545;
+    background-color: #ffffff;
+ }
+
+
+
+
+
+
